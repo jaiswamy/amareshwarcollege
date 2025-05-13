@@ -1,0 +1,31 @@
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql123
+      MYSQL_DATABASE: amareshwarcollege-31393549e0
+      MYSQL_USER: amareshwarcollege-31393549e0
+      MYSQL_PASSWORD: AmaRESHwAEc@2024
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./amareshwarcollege-31393549e0.sql:/docker-entrypoint-initdb.d/amareshwarcollege-31393549e0.sql
+
+  web:
+    build: .
+    container_name: amareshwarcollege_app
+    ports:
+      - "9082:80"
+    volumes:
+      - ./amareshwarcollege:/var/www/html
+    depends_on:
+      - db
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_DB: amareshwarcollege-31393549e0
+      MYSQL_USER: amareshwarcollege-31393549e0
+      MYSQL_PASSWORD: AmaRESHwAEc@2024
+
+volumes:
+  db_data:

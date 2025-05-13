@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Car-Dealership';
+  src:  url('fonts/Car-Dealership.eot?p1okhg');
+  src:  url('fonts/Car-Dealership.eot?p1okhg#iefix') format('embedded-opentype'),
+    url('fonts/Car-Dealership.ttf?p1okhg') format('truetype'),
+    url('fonts/Car-Dealership.woff?p1okhg') format('woff'),
+    url('fonts/Car-Dealership.svg?p1okhg#Car-Dealership') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="awb-cardealership-"], [class*=" awb-cardealership-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Car-Dealership' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.awb-cardealership-star-solid:before {
+  content: "\e908";
+}
+.awb-cardealership-big-saving:before {
+  content: "\e902";
+}
+.awb-cardealership-brakes:before {
+  content: "\e903";
+}
+.awb-cardealership-car-best:before {
+  content: "\e904";
+}
+.awb-cardealership-car-business:before {
+  content: "\e905";
+}
+.awb-cardealership-car-financing:before {
+  content: "\e906";
+}
+.awb-cardealership-car-quality:before {
+  content: "\e907";
+}
+.awb-cardealership-car-workshop:before {
+  content: "\e90e";
+}
+.awb-cardealership-chassis:before {
+  content: "\e90f";
+}
+.awb-cardealership-engine:before {
+  content: "\e910";
+}
+.awb-cardealership-engine2:before {
+  content: "\e911";
+}
+.awb-cardealership-fuel:before {
+  content: "\e912";
+}
+.awb-cardealership-perfect-car:before {
+  content: "\e920";
+}
+.awb-cardealership-performance:before {
+  content: "\e921";
+}
+.awb-cardealership-stick:before {
+  content: "\e922";
+}
+.awb-cardealership-angle-right-solid:before {
+  content: "\e900";
+}
+.awb-cardealership-bars-solid:before {
+  content: "\e90a";
+}
+.awb-cardealership-building-solid:before {
+  content: "\e90b";
+}
+.awb-cardealership-car-side-solid:before {
+  content: "\e90d";
+}
+.awb-cardealership-circle-notch-solid:before {
+  content: "\e913";
+}
+.awb-cardealership-clipboard-list-solid:before {
+  content: "\e914";
+}
+.awb-cardealership-clock-solid:before {
+  content: "\e915";
+}
+.awb-cardealership-dollar-sign-solid:before {
+  content: "\e916";
+}
+.awb-cardealership-envelope-open-text-solid:before {
+  content: "\e917";
+}
+.awb-cardealership-envelope-solid:before {
+  content: "\e918";
+}
+.awb-cardealership-globe-solid:before {
+  content: "\e919";
+}
+.awb-cardealership-map-marked-solid:before {
+  content: "\e91a";
+}
+.awb-cardealership-map-marker-alt-solid:before {
+  content: "\e91b";
+}
+.awb-cardealership-money-bill-alt-solid:before {
+  content: "\e91c";
+}
+.awb-cardealership-phone-alt-solid:before {
+  content: "\e91d";
+}
+.awb-cardealership-times-solid:before {
+  content: "\e91e";
+}
+.awb-cardealership-user-solid:before {
+  content: "\e91f";
+}
+.awb-cardealership-tick-2x:before {
+  content: "\e909";
+}
+.awb-cardealership-search:before {
+  content: "\e901";
+}
